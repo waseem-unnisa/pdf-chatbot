@@ -17,3 +17,8 @@ A Retrieval-Augmented Generation (RAG) web application built with Streamlit, Lan
 ## 📋 Prerequisites
 Before running the project, ensure you have Python installed (Python 3.9 to 3.11 is recommended for library stability) and a Google Gemini API Key.
 
+# AI PDF Chatbot 🤖
+
+![Chatbot Interface](screenshot.jpg)
+
+A Retrieval-Augmented Generation (RAG) web application built with Streamlit...
