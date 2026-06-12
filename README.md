@@ -19,6 +19,6 @@ Before running the project, ensure you have Python installed (Python 3.9 to 3.11
 
 # AI PDF Chatbot 🤖
 
-![Chatbot Interface](screenshot.jpg)
+![Chatbot Interface](Screenshot.jpg)
 
 A Retrieval-Augmented Generation (RAG) web application built with Streamlit...
