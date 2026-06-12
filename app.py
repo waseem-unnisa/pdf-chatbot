@@ -1,15 +1,13 @@
 import streamlit as st
+from rag_pipeline import load_pdf, split_text, create_vector_store, get_answer
 
-st.set_page_config(
+def main():
+    st.set_page_config(
     page_title =  "PDF ChatBot",
     page_icon = "📄",
     layout = "centered"
 )
-from rag_pipeline import load_pdf, split_text, create_vector_store, get_answer
-
-def main():
-
-  with st.container():
+with st.container():
     st.title("AI PDF Chatbot 🤖")
 
     if create_vector_store not in st.session_state:
