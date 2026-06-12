@@ -9,7 +9,7 @@ from rag_pipeline import load_pdf, split_text, create_vector_store, get_answer
 
 def main():
 
-
+  with st.container():
     st.title("AI PDF Chatbot 🤖")
 
     if create_vector_store not in st.session_state:
