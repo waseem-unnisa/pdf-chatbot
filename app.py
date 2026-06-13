@@ -3,9 +3,9 @@ from rag_pipeline import load_pdf, split_text, create_vector_store, get_answer
 
 def main():
     st.set_page_config(
-    page_title =  "PDF ChatBot",
-    page_icon = "📄",
-    layout = "centered"
+       page_title =  "PDF ChatBot",
+       page_icon = "📄",
+       layout = "centered"
 )
 with st.container():
     st.title("AI PDF Chatbot 🤖")
